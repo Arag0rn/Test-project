@@ -4,9 +4,11 @@ const RegistrBTN = document.querySelector(".RegistTxt");
 const EnterTxt = document.querySelector("h1");
 const EnterBtn = document.querySelector(".enter-btn");
 const UnderBtnTxr = document.querySelector(".underBtnTxr");
+const RegistrForm = document.querySelector(".registration");
+const ContRegistrForm = document.querySelector(".ContinueRegistration");
 
-
-RegistrBTN.addEventListener('click', OnRegistrBtnClick)
+RegistrBTN.addEventListener('click', OnRegistrBtnClick);
+EnterBtn.addEventListener('click', OnEnterButtonClick);
 
 function OnRegistrBtnClick (e){
     e.preventDefault();
@@ -24,3 +26,8 @@ function OnRegistrBtnClick (e){
   
 }
 
+function OnEnterButtonClick(e) {
+    e.preventDefault();
+    RegistrForm.style.display = "none";
+    ContRegistrForm.style.display = "flex";
+}
