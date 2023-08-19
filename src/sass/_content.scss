@@ -149,3 +149,90 @@ input{
         cursor: pointer;
       }
 }
+
+.selectProf{
+    display: flex;
+    height: 48px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 15px;
+    color: #78739A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+.underSellectTxt{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+}
+.checkTxt{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 100px;
+}
+
+textarea{
+    display: flex;
+    padding: 12px;
+    height: 115px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 15px;
+    color: #78739A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.linksHead{
+    color: #FFF;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.linkInput{
+    background-color: transparent;
+    border: 1px solid var(--input-stroke, #D0BFED);
+}
+
+.linkBox {
+    display: grid;
+    grid-template-columns: 48px 162px 48px 162px;
+    row-gap: 16px;
+    column-gap: 8px;
+}
+.fotoTxt{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.UserfotoBox{
+    display: flex;
+    align-items: center;
+}
+.userDown{
+    position: relative;
+    &:before{
+    position: absolute;
+    border:1px solid #FFF;
+    border-radius: 50%;
+   
+}
+
+}

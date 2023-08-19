@@ -1,7 +1,10 @@
+import SlimSelect from 'slim-select'
+
 const RegistrBTN = document.querySelector(".RegistTxt");
 const EnterTxt = document.querySelector("h1");
 const EnterBtn = document.querySelector(".enter-btn");
 const UnderBtnTxr = document.querySelector(".underBtnTxr");
+
 
 RegistrBTN.addEventListener('click', OnRegistrBtnClick)
 
@@ -20,3 +23,4 @@ function OnRegistrBtnClick (e){
     }
   
 }
+
