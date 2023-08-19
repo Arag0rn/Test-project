@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector(".RegistTxt"),e=document.querySelector("h1"),n=document.querySelector(".enter-btn"),o=document.querySelector(".underBtnTxr");t.addEventListener("click",(function(r){r.preventDefault(),"Увійти"===t.textContent?(e.textContent="ВХІД В АКАУНТ",t.textContent="Зареєструватися",n.textContent="Увійти",o.textContent="Вперше тут?"):"Зареєструватися"===t.textContent&&(e.textContent="РЕЄСТРАЦІЯ",t.textContent="Увійти",n.textContent="Продовжити",o.textContent="Маєш акаунт?")}))}();
+//# sourceMappingURL=index.1b9aa315.js.map
