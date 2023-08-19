@@ -16,11 +16,14 @@ nav{
 }
 .nav-link {
   color: var(--btn-txt, #FFF);
-  font-family: Montserrat;
+  font-family: Montserrat Alternates;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(110%);
+  }
 
 }
 .header-container {
